@@ -4,7 +4,7 @@ A responsive and modern personal portfolio website for showcasing my skills, pro
 
 ## 🔗 Live Demo
 
-Check out the live portfolio here: [Click to View](https://usmananwar12.github.io/portfolio) *(Replace with your actual link if needed)*
+Check out the live portfolio here: [Click to View](https://usmananwar12.github.io/portfolio/)
 
 ---
 
