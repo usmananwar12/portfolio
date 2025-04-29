@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M. Usman Anwar | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            color: #f8fafc;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+
+        .about-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-pic {
+            border-radius: 20px;
+            border: 4px solid #38bdf8;
+            box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+
+        .card {
+            background-color: #1e293b;
+            border: none;
+            color: #f8fafc;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .project-card {
+            background: rgba(30, 41, 59, 0.75);
+            backdrop-filter: blur(6px);
+            border-radius: 15px;
+            padding: 25px;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+        }
+
+        .project-card h5 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #f1f5f9;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            color: #cbd5e1;
+        }
+
+        .project-card small {
+            display: block;
+            margin-top: 10px;
+            color: #94a3b8;
+        }
+
+        .project-card a {
+            margin-top: 10px;
+            display: inline-block;
+            color: #38bdf8;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>M. Usman Anwar</h1>
+            <p>Front-End Web Developer | Computer Science Student</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row align-items-center about-card">
+            <div class="col-md-5 text-center mb-4 mb-md-0">
+                <img src="image.jpg" alt="M. Usman Anwar" class="profile-pic img-fluid" />
+            </div>
+            <div class="col-md-7">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I’m a Computer Science student with a strong interest in front-end web development. I love turning
+                    creative ideas into clean, functional websites. I'm always eager to learn new technologies, sharpen
+                    my skills, and bring digital experiences to life through real-world projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="container py-5">
+        <h2 class="section-title text-center">Projects</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project-card h-100">
+              <h5>Official Website for Al Zahid Madni Travels</h5>
+              <p>Developed and deployed the official site for a travel agency using modern front-end tools.</p>
+              <small><strong>Tools:</strong> HTML, CSS, Bootstrap, JavaScript, GitHub</small>
+              <a href="https://alzahidmadni.store" target="_blank">🔗 Visit Site</a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project-card h-100">
+              <h5>Travel Management System</h5>
+              <p>Web app to manage travel-related services, built for a university-level project.</p>
+              <small><strong>Tools:</strong> HTML, CSS, Bootstrap, JavaScript, GitHub</small>
+              <a href="https://usmananwar12.github.io/Web_Assignment_2/" target="_blank">🔗 View Project</a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project-card h-100">
+              <h5>Real-Time Chat Application</h5>
+              <p>A live chat web app that allows group messaging using WebSocket technology. Built using Node.js and front-end tools.</p>
+              <small><strong>Tools:</strong> Node.js, WebSocket, HTML, CSS, Bootstrap, JavaScript</small>
+              <a href="https://github.com/usmananwar12/ChatApp" target="_blank">🔗 View Live</a> 
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="container py-5">
+        <h2 class="section-title text-center">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card bg-dark bg-opacity-50 border-0 shadow-sm p-4 text-center rounded-4">
+              <p class="mb-3">
+                <i class="bi bi-envelope-fill me-2 text-info"></i>
+                <a href="mailto:usmananwar9595@gmail.com" class="text-decoration-none text-light">
+                  usmananwar9595@gmail.com
+                </a>
+              </p>
+              <p class="mb-3">
+                <i class="bi bi-telephone-fill me-2 text-info"></i>
+                <a href="tel:+923061166416" class="text-decoration-none text-light">
+                  +92 306 116 6416
+                </a>
+              </p>
+              <p class="mb-3">
+                <i class="bi bi-linkedin me-2 text-info"></i>
+                <a href="https://linkedin.com/in/usman-anwar" class="text-decoration-none text-light" target="_blank">
+                  linkedin.com/in/usman-anwar
+                </a>
+              </p>
+              <p>
+                <i class="bi bi-github me-2 text-info"></i>
+                <a href="https://github.com/usmananwar12" class="text-decoration-none text-light" target="_blank">
+                  github.com/usmananwar12
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+    <footer class="text-center py-4">
+        <small>&copy; 2025 M. Usman Anwar. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>
